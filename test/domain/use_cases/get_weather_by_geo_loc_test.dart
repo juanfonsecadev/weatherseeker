@@ -107,6 +107,7 @@ void main() {
 
       expect(() => getWeatherByGeoLoc(latitude, longitude),
           throwsA(isA<Exception>()));
+          
     });
   });
 }
